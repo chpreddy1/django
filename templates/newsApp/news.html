@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>newsProject</title>
+        <link rel="stylesheet" href="{%static "css/demo.css"%}">
+  </head>
+  <body>
+    <h1>{{Head_msg}}</h1>
+    <ul>
+      <li><h2>{{sub_msg1}}</h2></li>
+      <li><h2>{{sub_msg2}}</h2></li>
+      <li><h2>{{sub_msg3}}</h2></li>
+      <li><h2>{{photo}}</h2></li>
+    </ul>
+    <img src="{%static "images/sky.jpg"%}" alt="sky image">
+    <img src="{%static "images/fall-leaves.jpg"%}" alt="fallleaves image">
+    <img src="{%static "images/birds.jpg"%}" alt="birds image">
+  </body>
+</html>
